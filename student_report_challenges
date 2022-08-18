@@ -1,0 +1,29 @@
+#CREATE INFO TABLE WITH JOINS
+
+CREATE TABLE reports_student_colleges AS
+SELECT student_personal_details.id, 
+        unemp,
+        wage,
+        distance,
+        region,
+        avg_county_tuition, 
+        academic_score,
+        student_tuition,
+        education,
+        fcollege,
+        mcollege,
+        home,
+        urban,
+        income,
+        gender, 
+        dob, 
+        ethnicity
+FROM county_info
+JOIN student_academic_info
+ on county_info.id = student_academic_info.id
+JOIN student_family_details
+ on student_academic_info.id = student_family_details.id
+JOIN student_personal_details
+ on student_family_details.id = student_personal_details.family_details_id;
+
+SELECT * FROM reports_student_colleges
