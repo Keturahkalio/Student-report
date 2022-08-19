@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Keturahkalio
 - 👀 I’m interested in Data Analysis
-- 🌱 I’m currently learning phyton and R programming languages...
-- 💞️ I’m looking to collaborate on projects
+- 🌱 I’m currently learning and perfecting my SQL programming languages skill
+- 💞️ I’m looking to work in healthtech
 - 📫 How to reach me keturahkalio@gmail.com...
 
 <!---
