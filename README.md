@@ -29,4 +29,4 @@ Inner Join was used in joining columns from all the tables into a single table f
 in joining the four tables into one called students_college_reports
 After an inner join, duplicates were recorded; this was removed using window functions.
 
-Link to Article
+Link to Article: [https://keturahkalio.wixsite.com/keturahportfolio/post/student-report]
